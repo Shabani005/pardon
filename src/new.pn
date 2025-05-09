@@ -1,0 +1,5 @@
+def main():
+    print("Enter the filename to compile:")
+    fname = read()
+    system("uv run compiler.py " + fname)
+    return 0
